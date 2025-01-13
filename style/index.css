@@ -73,6 +73,11 @@
   max-width: 1200px;
 }
 
+.h-container-s{
+  max-width: 1000px;
+}
+
+
 .h-mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -309,6 +314,10 @@ line-height: 1.3 ;
 }
 
 
+/* .section-body{
+  background-color: pink;
+} */
+
 /* .section-info------------------- */
 
 .section-info .section-container{
@@ -384,6 +393,13 @@ position: relative;
     margin-bottom: 4rem;
   }
 
+/* section-result---------------- */
+
+.section-result .section-head{
+  text-align: center;
+ 
+}
+
   /* card------------------ */
 
   .card{
@@ -417,4 +433,24 @@ background-color: #fff;
 
 .card-description{
 color: rgba(0, 0,0 , .5);
+}
+
+/* result----------- */
+
+.result{
+  /* background-color: pink; */
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0%,0 , .7);
+}
+
+.result-num{
+  font-size: 3rem;
+  color:var(--primary-color)
+}
+
+.result-foot{
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, .4);
 }
